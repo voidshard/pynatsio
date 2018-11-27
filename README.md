@@ -50,3 +50,6 @@ print(reply.data, reply.metadata, reply.subject)
 ```
 
 Simple eh? No coroutine, new_event_loop, run_until_complete, async .. yada yada. Just straight forward nats.  
+
+
+Disclaimer: I've given this very little testing ;) Might pay to add tests if you're planning on using it in anger.
